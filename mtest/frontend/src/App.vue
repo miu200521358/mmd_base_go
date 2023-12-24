@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import Config from '@/components/pages/Config.vue'
+import ConfigPage from '@/components/pages/ConfigPage.vue'
 </script>
 
 <template>
-  <Config />
+  <ConfigPage />
 </template>

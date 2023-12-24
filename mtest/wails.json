@@ -1,7 +1,7 @@
 {
   "name": "mtest",
   "assetdir": "./frontend/dist",
-  "reloaddirs": "./frontend/src/components",
+  "reloaddirs": "./frontend/src/views,./frontend/src/i18n/locales",
   "frontend:build": "npm run build",
   "frontend:install": "npm install",
   "frontend:dev": "",
@@ -11,17 +11,17 @@
   "frontend:dev:serverUrl": "auto",
   "wailsjsdir": "./frontend/src",
   "version": "2",
-  "projectdir": "/mnt/c/MMD/mmd_base_go/mtest",
+  "projectdir": "C:\\MMD\\mmd_base_go\\mtest",
   "build:dir": "build",
-  "outputfilename": "mtest",
+  "outputfilename": "mtest.exe",
   "OutputType": "",
   "Platform": "",
   "runNonNativeBuildHooks": false,
   "postBuildHooks": null,
   "preBuildHooks": null,
   "Author": {
-    "name": "",
-    "email": ""
+    "name": "miu",
+    "email": "38824651+miu200521358@users.noreply.github.com"
   },
   "Info": {
     "companyName": "mtest",

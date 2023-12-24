@@ -1,4 +1,4 @@
-module changeme
+module miu200521358/mtest_go
 
 go 1.21
 
@@ -36,4 +36,4 @@ require (
 	golang.org/x/text v0.13.0 // indirect
 )
 
-// replace github.com/wailsapp/wails/v2 v2.7.1 => /home/miu/go/pkg/mod
+// replace github.com/wailsapp/wails/v2 v2.7.1 => C:\Users\celes\go\pkg\mod
