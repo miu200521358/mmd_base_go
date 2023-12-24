@@ -11,12 +11,13 @@ export default defineComponent({
 <template>
     <main>
         <div class="input-layer">
-            <div class="text-layer">
-                <div class="input-title">モデル</div>
-                <input id="modelName" type="file" accept=".pmx" />
-            </div>
             <div class="button-layer">
+                <div>モデル</div>
                 <button>履歴</button>
+            </div>
+            <div class="file-layer">
+                <div>(未読み込み)</div>
+                <input id="modelName" type="file" accept=".pmx" />
             </div>
         </div>
     </main>
