@@ -123,6 +123,9 @@ wails init -n mtest2 -t vue-ts
 
 wails dev -assetdir ./frontend/dist -wailsjsdir ./frontend/src -reloaddirs ./frontend/src/components -save
 
+npm create vite@latest
+
+
 
 ```
 
