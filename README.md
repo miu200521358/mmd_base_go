@@ -107,7 +107,7 @@ wails dev -assetdir ./frontend/dist -wailsjsdir ./frontend/src -reloaddirs ./fro
 npm install --save quasar @quasar/extras
 npm install --save-dev @quasar/vite-plugin sass@^1.33.0
 
-
+npm install vue-router@4
 
 
 ```
