@@ -1,7 +1,7 @@
 {
   "name": "mtest",
   "assetdir": "./frontend/dist",
-  "reloaddirs": "./frontend/src/views,./frontend/src/i18n/locales",
+  "reloaddirs": "./frontend/src/components",
   "frontend:build": "npm run build",
   "frontend:install": "npm install",
   "frontend:dev": "",

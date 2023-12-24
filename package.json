@@ -1,5 +1,11 @@
 {
   "devDependencies": {
-    "reload": "^3.2.1"
+    "@quasar/vite-plugin": "^1.6.0",
+    "reload": "^3.2.1",
+    "sass": "^1.69.5"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.9",
+    "quasar": "^2.14.2"
   }
 }

@@ -82,5 +82,35 @@ export default defineConfig({
 });
 ```
 
+## TypeScript + Vue3 + Vite + Quasar
+
+```
+wails init -n mtest -t vue-ts
+
+frontend を削除
+
+(base) miu@garnet:/mnt/c/MMD/mmd_base_go/mtest$ npm create vite@latest
+✔ Project name: … frontend
+✔ Select a framework: › Vue
+✔ Select a variant: › TypeScript
+
+Scaffolding project in /mnt/c/MMD/mmd_base_go/mtest/frontend...
+
+Done. Now run:
+
+  cd frontend
+  npm install
+  npm run dev
+
+wails dev -assetdir ./frontend/dist -wailsjsdir ./frontend/src -reloaddirs ./frontend/src/components -save
+
+npm install --save quasar @quasar/extras
+npm install --save-dev @quasar/vite-plugin sass@^1.33.0
+
+
+
+
+```
+
 
 
