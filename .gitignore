@@ -24,3 +24,4 @@ build/
 .github
 node_modules/
 .vscode
+*.d.ts
