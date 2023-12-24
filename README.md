@@ -42,7 +42,7 @@ GOOS=windows GOARCH=amd64 wails build -v 2 -trimpath -clean -o hello_wails.exe
 ## Command (WSL)
 
 ```
-wails init -n mtest -t https://github.com/codydbentley/wails-vite-vue-ts
+wails init -n mtest -t vue-ts
 cd mtest
 
 初回

@@ -5,7 +5,7 @@
   "frontend:build": "npm run build",
   "frontend:install": "npm install",
   "frontend:dev": "",
-  "frontend:dev:build": "npm run build-only",
+  "frontend:dev:build": "",
   "frontend:dev:install": "",
   "frontend:dev:watcher": "npm run dev",
   "frontend:dev:serverUrl": "auto",
@@ -32,7 +32,7 @@
     "fileAssociations": null,
     "protocols": null
   },
-  "debounceMS": 500,
+  "debounceMS": 100,
   "devServer": "localhost:34115",
   "appargs": "",
   "nsisType": "multiple",

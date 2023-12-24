@@ -1,4 +1,4 @@
-module miu200521358.mtest
+module changeme
 
 go 1.21
 
