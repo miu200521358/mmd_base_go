@@ -109,8 +109,9 @@ npm install --save-dev @quasar/vite-plugin sass@^1.33.0
 
 npm install vue-router@4
 
-
 GOOS=windows GOARCH=amd64 wails build -v 2 -trimpath -clean -o hello_wails.exe
+
+sudo apt install fonts-material-design-icons-iconfont -y
 ```
 
 
