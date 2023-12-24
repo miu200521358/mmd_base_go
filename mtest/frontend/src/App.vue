@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import TopPage from '@/components/Top.vue'
+</script>
+
 <template>
-  <RouterView />
+  <TopPage />
 </template>

@@ -118,5 +118,11 @@ npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
 npm install -D @vue/tsconfig
 ```
 
+```
+wails init -n mtest2 -t vue-ts
 
+wails dev -assetdir ./frontend/dist -wailsjsdir ./frontend/src -reloaddirs ./frontend/src/components -save
+
+
+```
 

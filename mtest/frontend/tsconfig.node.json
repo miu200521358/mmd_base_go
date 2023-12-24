@@ -3,13 +3,26 @@
     "@vue/tsconfig/tsconfig.dom.json",
     "@vue/tsconfig/tsconfig.lib.json",
   ],
-  "include": ["vite.config.*", "vitest.config.*", "cypress.config.*"],
+  "include": [
+    "vite.config.*",
+    "vitest.config.*",
+    "cypress.config.*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "coverage",
+    "cypress"
+  ],
   "compilerOptions": {
     "composite": true,
     "skipLibCheck": true,
     "module": "ESNext",
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true,
-    "types": ["node"]
+    "types": [
+      "node"
+    ],
+    "outDir": "./dist/",
   },
 }
