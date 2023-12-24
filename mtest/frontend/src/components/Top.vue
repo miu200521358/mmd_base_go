@@ -6,8 +6,8 @@ const search = ref('')
 
 <template>
   <q-page-container>
-    <q-page class="q-pa-md fixed-center" style="min-height: 0;">
-      <h1 class="text-h4">入力してください</h1>
+    <q-page class="q-pa-md fixed-center" style="min-height: 0; background-color: white;">
+      <h1 class="text-h4 white">入力してください</h1>
       <div class="q-pa-md" style="max-width: 350px">
         <div class="q-gutter-md">
           <q-input v-model="search" debounce="50" filled placeholder="Search">

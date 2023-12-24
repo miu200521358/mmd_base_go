@@ -22,6 +22,15 @@ export default defineConfig({
       sassVariables: 'src/quasar-variables.sass',
     }),
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        entryFileNames: `assets/[name].js`,
+        chunkFileNames: `assets/[name].js`,
+        assetFileNames: `assets/[name].[ext]`,
+      },
+    },
+  },
   server: {
     watch: {
       usePolling: true,

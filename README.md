@@ -112,6 +112,10 @@ npm install vue-router@4
 GOOS=windows GOARCH=amd64 wails build -v 2 -trimpath -clean -o hello_wails.exe
 
 sudo apt install fonts-material-design-icons-iconfont -y
+
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+
+npm install -D @vue/tsconfig
 ```
 
 
