@@ -1,0 +1,10 @@
+{
+  "model": {
+    "title": "模型"
+  },
+  "languages": {
+    "ja": "日本語",
+    "en": "English",
+    "zh-Hans": "简体中文"
+  }
+}

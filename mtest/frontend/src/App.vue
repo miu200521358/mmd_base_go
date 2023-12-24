@@ -1,7 +1,23 @@
 <script setup lang="ts">
 import ConfigPage from '@/components/pages/ConfigPage.vue'
+
+import { useI18n } from "vue-i18n";
+
+const { t, availableLocales: languages, locale } = useI18n();
+
+const onclickLanguageHandle = (item: string) => {
+  item !== locale.value ? (locale.value = item) : false;
+};
 </script>
 
 <template>
+  <div class="text-right mt-2 mr-2 px-2 py-1">
+    <select class="bg-gray-500" v-model="locale" @change="onclickLanguageHandle(locale)">
+      <option v-for="item in languages" :key="item" :class="{ active: item === locale }" :value="item">
+        {{ t("languages." + item) }}
+      </option>
+    </select>
+  </div>
+
   <ConfigPage />
 </template>

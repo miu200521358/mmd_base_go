@@ -144,5 +144,6 @@ npm install --save-dev @quasar/vite-plugin sass@^1.33.0
 npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
 npm install -D @vue/tsconfig
 
+npm install vue-i18n@9
 
 ```

@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import { Quasar } from 'quasar'
 import quasarLang from 'quasar/lang/ja'
+import i18n from "@/i18n";
 
 // Import icon libraries
 import '@quasar/extras/material-icons/material-icons.css'
@@ -20,5 +21,6 @@ myApp.use(Quasar, {
     lang: quasarLang,
 })
 
+myApp.use(i18n);
 // Assumes you have a <div id="app"></div> in your index.html
 myApp.mount('#app')

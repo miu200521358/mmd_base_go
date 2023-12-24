@@ -1,0 +1,15 @@
+{
+  "name": "i18n",
+  "outputfilename": "i18n",
+  "assetdir": "frontend/dist",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:build": "npm run build-only",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "debounceMS": 500,
+  "author": {
+    "name": "miu",
+    "email": "38824651+miu200521358@users.noreply.github.com"
+  }
+}
