@@ -1,0 +1,49 @@
+{
+  "name": "mtest",
+  "assetdir": "./frontend/dist",
+  "reloaddirs": "./frontend/src/views,./frontend/src/i18n/locales",
+  "frontend:build": "npm run build",
+  "frontend:install": "npm install",
+  "frontend:dev": "",
+  "frontend:dev:build": "npm run build-only",
+  "frontend:dev:install": "",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "wailsjsdir": "./frontend/src",
+  "version": "2",
+  "projectdir": "/mnt/c/MMD/mmd_base_go/mtest",
+  "build:dir": "build",
+  "outputfilename": "mtest",
+  "OutputType": "",
+  "Platform": "",
+  "runNonNativeBuildHooks": false,
+  "postBuildHooks": null,
+  "preBuildHooks": null,
+  "Author": {
+    "name": "",
+    "email": ""
+  },
+  "Info": {
+    "companyName": "mtest",
+    "productName": "mtest",
+    "productVersion": "1.0.0",
+    "copyright": "Copyright.........",
+    "comments": "Built using Wails (https://wails.io)",
+    "fileAssociations": null,
+    "protocols": null
+  },
+  "debounceMS": 500,
+  "devServer": "localhost:34115",
+  "appargs": "",
+  "nsisType": "multiple",
+  "obfuscated": false,
+  "garbleargs": "",
+  "frontend:dir": "frontend",
+  "bindings": {
+    "ts_generation": {
+      "prefix": "",
+      "suffix": "",
+      "outputType": ""
+    }
+  }
+}
