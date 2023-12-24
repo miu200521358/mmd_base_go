@@ -1,5 +1,5 @@
 {
-  "name": "mtest2",
+  "name": "mtest",
   "assetdir": "./frontend/dist",
   "reloaddirs": "./frontend/src/components",
   "frontend:build": "npm run build",
@@ -11,9 +11,9 @@
   "frontend:dev:serverUrl": "auto",
   "wailsjsdir": "./frontend/src",
   "version": "2",
-  "projectdir": "/mnt/c/MMD/mmd_base_go/mtest2",
+  "projectdir": "/mnt/c/MMD/mmd_base_go/mtest",
   "build:dir": "build",
-  "outputfilename": "mtest2",
+  "outputfilename": "mtest",
   "OutputType": "",
   "Platform": "",
   "runNonNativeBuildHooks": false,
@@ -24,8 +24,8 @@
     "email": ""
   },
   "Info": {
-    "companyName": "mtest2",
-    "productName": "mtest2",
+    "companyName": "mtest",
+    "productName": "mtest",
     "productVersion": "1.0.0",
     "copyright": "Copyright.........",
     "comments": "Built using Wails (https://wails.io)",
