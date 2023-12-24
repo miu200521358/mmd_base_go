@@ -125,13 +125,12 @@ wails dev -assetdir ./frontend/dist -wailsjsdir ./frontend/src -reloaddirs ./fro
 
 npm create vite@latest
 
+```
+
+```
 https://github.com/iqonicdesignofficial/hope-ui-design-system?tab=readme-ov-file#method-2-using-cdn
 
-(base) miu@garnet:/mnt/c/MMD/hope-ui/hope-ui-4.0.0/gulp+scss+hbs$ npm install
-
-npm audit fix --force
-
-
+wails dev
 
 ```
 

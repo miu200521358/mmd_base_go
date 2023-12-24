@@ -4,7 +4,6 @@
     "@vue/tsconfig": "^0.5.1",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.32",
-    "reload": "^3.2.1",
     "sass": "^1.69.5",
     "tailwindcss": "^3.4.0"
   },
