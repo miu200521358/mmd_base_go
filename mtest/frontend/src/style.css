@@ -2,13 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background-color: #dee2e6;
+  --font-color: #232d42;
+  --primary-color: #3A57E8;
+  --secondary-color: #6C757D;
+  --success-color: #1AA053;
+  --danger-color: #C03221;
+  --warning-color: #F16A1B;
+  --info-color: #079AA2;
+  --light-mono-color: #DEE2E6;
+  --dark-mono-color: #212529;
+  --shadow-color: #3A57E84C;
+  --secondary-active-color: #494f56;
+}
+
 html {
-  background-color: #dee2e6;
+  background-color: var(--background-color);
 }
 
 body {
   margin: 0;
-  color: #232d42;
+  color: var(--font-color);
 }
 
 @font-face {
@@ -25,13 +40,14 @@ body {
 }
 
 #app {
-  height: 100vh;
+  width: 98vw;
+  height: 98vh;
   text-align: center;
 }
 
 .input-layer {
   display: flex;
-  align-items: center;
+  align-items: left;
   position: relative;
   width: 100vw;
 
@@ -58,13 +74,13 @@ body {
   align-items: flex-start;
   position: relative;
   height: 82px;
-  padding: 6px 0px 6px 16px;
+  padding: 6px 0px 3px 16px;
 
   gap: 8px;
 }
 
 input[type='file'] {
-  width: 70vw;
+  width: 80vw;
 }
 
 button,
@@ -75,8 +91,8 @@ input::file-selector-button {
   overflow: visible;
   border: none;
   border-radius: 4px;
-  box-shadow: 0 2px 4px #3a57e84c;
-  background-color: #6c757d;
+  box-shadow: 0 2px 4px var(--shadow-color);
+  background-color: var(--secondary-color);
   color: #ffffff;
   text-decoration: none;
   text-align: center;
@@ -88,8 +104,8 @@ input::file-selector-button {
 select {
   border: none;
   border-radius: 4px;
-  box-shadow: 0 2px 4px #3a57e84c;
-  background-color: #6c757d;
+  box-shadow: 0 2px 4px var(--shadow-color);
+  background-color: var(--secondary-color);
   color: #ffffff;
   padding: 4px 16px;
 }
@@ -104,5 +120,5 @@ button {
 
 button:active,
 input::file-selector-button:active {
-  background-color: #494f56;
+  background-color: var(--secondary-active-color);
 }
