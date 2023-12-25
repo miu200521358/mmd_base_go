@@ -9,9 +9,9 @@ const i18n = createI18n({
   fallbackLocale: "ja",
   legacy: false,
   messages: {
-    "zh-Hans": zhHans,
-    en: en,
     ja: ja,
+    en: en,
+    "zh-Hans": zhHans,
   },
 });
 

@@ -1,6 +1,12 @@
 {
   "model": {
-    "title": "Model"
+    "title": "Model",
+    "no-set": "Not set"
+  },
+  "button": {
+    "history": "History",
+    "open": "Open",
+    "save": "Save"
   },
   "languages": {
     "ja": "日本語",
