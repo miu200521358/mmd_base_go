@@ -1,13 +1,3 @@
-<script setup lang="ts">
-import { useI18n } from "vue-i18n";
-
-const { t, availableLocales: languages, locale } = useI18n();
-
-const onchangeLanguageHandle = (item: string) => {
-    item !== locale.value ? (locale.value = item) : false;
-};
-</script>
-
 <template>
     <div class="text-right mt-2 mr-2 px-2 py-1">
         <select class="bg-gray-500" v-model="locale" @change="onchangeLanguageHandle(locale)">
@@ -17,3 +7,13 @@ const onchangeLanguageHandle = (item: string) => {
         </select>
     </div>
 </template>
+
+<script setup lang="ts">
+import { useI18n } from "vue-i18n";
+
+const { t, availableLocales: languages, locale } = useI18n();
+
+const onchangeLanguageHandle = (item: string) => {
+    item !== locale.value ? (locale.value = item) : false;
+};
+</script>
